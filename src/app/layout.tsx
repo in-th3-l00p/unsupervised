@@ -20,9 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${merriweather.variable} antialiased`}
+        className={`${merriweather.variable} antialiased bg-background`}
       >
-        <main className="w-screen h-screen flex items-center justify-center flex-col gap-4">
+        <main className="w-screen h-screen flex items-center flex-col gap-4 space-y-16 py-32">
           {children}
         </main>
       </body>
