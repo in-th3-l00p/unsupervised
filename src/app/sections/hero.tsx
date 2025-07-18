@@ -15,7 +15,7 @@ function NavSeparator() {
 
 export default function Hero() {
     return (
-        <section className="w-full h-screen flex flex-col gap-16 justify-center items-center text-foreground">
+        <section className="w-screen h-screen flex flex-col gap-16 justify-center items-center text-foreground">
             <div className="p-4 rounded-2xl border-4 border-foreground skew-2 shadow-2xl bg-white">
                 <h1 className="text-6xl font-bold mb-4">unsupervised</h1>
                 <p className="text-lg">hacking community</p>
@@ -25,8 +25,6 @@ export default function Hero() {
                 <NavLink href="/#about">about</NavLink>
                 <NavSeparator />
                 <NavLink href="/#projects">projects</NavLink>
-                <NavSeparator />
-                <NavLink href="/#articles">articles</NavLink>
                 <NavSeparator />
                 <NavLink href="/#contact">contact</NavLink>
             </div>
