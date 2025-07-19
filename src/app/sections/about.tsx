@@ -5,7 +5,7 @@ function Image ({ src, alt, className }: { src: string, alt: string, className?:
     return (
         <div 
             className={clsx(
-                "bg-white rounded-lg shadow-xl shadow-black/40", 
+                "bg-white rounded-lg shadow-2xl shadow-black/40", 
                 "w-50 h-60 pt-6 px-2 pb-16", 
                 className
             )}
@@ -30,12 +30,12 @@ function Images() {
             <Image 
                 src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80" 
                 alt="img" 
-                className="-translate-x-20 -rotate-1"
+                className="-translate-x-20 -rotate-1 translate-y-6"
             />
             <Image 
                 src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80" 
                 alt="img" 
-                className="-translate-x-46 rotate-2"
+                className="-translate-x-46 rotate-2 -translate-y-3"
             />
         </div>
     );
